@@ -88,6 +88,12 @@ var path = require('path')
         demand:false,
         alias: 'L',
         description: 'save request logs to a specific file'
+      },
+      useCache: {
+        demand: false,
+        alias: 'h',
+        description: 'enable cache',
+        default: false
       }
     }).argv;
 
